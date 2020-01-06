@@ -1,0 +1,122 @@
+.rectangle{
+   /* position: absolute;*/
+    margin: 2.5%;
+}
+
+#first{
+    background: red;
+    width: 30%;
+
+    padding-bottom: 5%;
+}
+#second{
+    background: orange;
+    width: 60%;
+    padding-bottom: 5%;  
+    margin-left: 35%; 
+    margin-top: -7.5%;
+}
+
+#thrid{
+    background: rgb(70, 148, 70);
+    width: 92.5%;
+    padding-bottom: 25%;  
+    
+    top: 50px;
+}
+
+#fourth{
+    background: rgb(136, 87, 87);
+    width: 29.5%;
+    padding-bottom: 10%;
+}
+
+#fifth{
+    background: blue;
+    width: 29.5%;
+    padding-bottom: 10%;
+    margin-left: 34%;
+    margin-top: -12.5%;
+}
+
+#sixth{
+    background: rgb(163, 22, 163);
+    width: 29.5%;
+    padding-bottom: 10%;
+    margin-left: 65.5%;
+    margin-top: -12.5%;
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    #first{
+        background: orange;
+        width: 30%;
+        padding-bottom: 5%;
+    }
+
+    #second{
+        background: rgb(163, 22, 163);
+    }
+
+    #thrid{
+        background: red;
+        width: 92.5%;
+        padding-bottom: 22.5%;  
+        
+        top: 50px;
+    }
+
+    #fourth{
+        background: green;
+        width: 45%;
+        padding-bottom: 17.5%;
+    }
+
+    #fifth{
+        background: blue;
+        width: 45%;
+        padding-bottom: 17.5%;
+        margin-left: 50%;
+        margin-top: -20%;
+    }
+    
+    #sixth{
+        width: 0%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    #first{
+        background: green;
+        width: 90%;
+        padding-bottom: 15%;
+    }
+
+    #second{
+        width: 0%;
+    }
+
+    #thrid{
+        background:  rgb(163, 22, 163);
+        width: 90%;
+        padding-bottom: 15%;  
+        
+        top: 50px;
+    }
+
+    #fourth{
+        background: red;
+        width: 90%;
+        padding-bottom: 80%;
+        margin-top: -1.5%;
+    }
+
+    #fifth{
+        width: 0%;
+    }
+    
+    #sixth{
+        width: 0%;
+    }
+  }
