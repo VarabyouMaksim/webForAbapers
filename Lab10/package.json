@@ -1,0 +1,19 @@
+{
+  "name": "homework_10",
+  "version": "1.0.0",
+  "description": "homework_10 of Web for abapers course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Varabyou",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VarabyouMaksim/webForAbapers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VarabyouMaksim/webForAbapers/issues"
+  },
+  "homepage": "https://github.com/VarabyouMaksim/webForAbapers#readme"
+}
