@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h2>Read</h2>
+    <form action="/show-user-data" method="get">
+	<input type="submit" value="Show"/>
+    </form>
+    <hr>
+    <h2>Create</h2>
+    <form action="/submit-user-data" method="post">
+	<table>
+        <tr><td>Surname:</td><td> <input name="Surname" type="text" /> <br /></td></tr>
+        <tr><td>Name:</td><td> <input name="Name" type="text" /> <br /></td></tr>
+	<tr><td>Login:</td><td> <input name="Login" type="text" /><br /></td></tr>
+	<tr><td width="100">Password:</td><td> <input name="Password" type="password" /><br /></td></tr>
+	<tr><td>Job:</td><td> <input name="Job" type="text" /><br /></td></tr>
+	</table>
+        <input type="submit" value="Post"/>
+    </form>
+    <hr>
+    <h2>Update</h2>
+    <form action="/update-user-data" method="post">
+	<table>
+	<tr><td>Id:</td><td> <input name="Id" type="text" /> <br /></td></tr>
+        <tr><td>Surname:</td><td> <input name="uSurname" type="text" /> <br /></td></tr>
+        <tr><td>Name:</td><td> <input name="uName" type="text" /> <br /></td></tr>
+	<tr><td>Login:</td><td> <input name="uLogin" type="text" /><br /></td></tr>
+	<tr><td width="100">Password:</td><td> <input name="uPassword" type="password" /><br /></td></tr>
+	<tr><td>Job:</td><td> <input name="uJob" type="text" /><br /></td></tr>
+	</table>
+        <input type="submit" value="Update"/>
+    </form>
+    <hr>
+    <h2>Delete</h2>
+    <form action="/delete-user-data" method="post">
+	<table>
+	<tr><td width="100">Id:</td><td><input name="dId" type="text" /> <br /></td></tr>
+	</table>
+	<input type="submit" value="Delete"/>
+	
+    </form>
+</body>
+</html>

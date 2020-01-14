@@ -1,6 +1,6 @@
 class User{
 
-    constructor(surname, name, login, password){
+    constructor(surname, name, login, password){ 
 
         let _surname = surname;
 
