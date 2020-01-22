@@ -1,0 +1,26 @@
+ID: myUI5App
+_schema-version: 3.2.0
+description: Enter description here
+version: 0.0.1
+
+modules:
+ - name: myUI5App
+   type: nodejs
+   path: approuter
+   build-parameters:
+     builder: custom
+     commands:
+       - npm install
+       - npm run build:ui --prefix ..
+   parameters:
+      disk-quota: 512M
+      memory: 512M
+   requires:
+      - name: dest_myUI5App
+
+resources:
+ - name: dest_myUI5App
+   type: org.cloudfoundry.managed-service
+   parameters:
+      service-plan: lite
+      service: destination

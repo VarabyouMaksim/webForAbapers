@@ -1,0 +1,32 @@
+{
+	"name": "myUI5App",
+	"version": "0.0.1",
+	"buildTimestamp": "202001211014",
+	"scmRevision": "",
+	"libraries": [
+		{
+			"name": "sap.m",
+			"version": "1.73.2",
+			"buildTimestamp": "202001211014",
+			"scmRevision": ""
+		},
+		{
+			"name": "sap.ui.core",
+			"version": "1.73.2",
+			"buildTimestamp": "202001211014",
+			"scmRevision": ""
+		},
+		{
+			"name": "sap.ui.layout",
+			"version": "1.73.2",
+			"buildTimestamp": "202001211014",
+			"scmRevision": ""
+		},
+		{
+			"name": "sap.ui.unified",
+			"version": "1.73.2",
+			"buildTimestamp": "202001211014",
+			"scmRevision": ""
+		}
+	]
+}
